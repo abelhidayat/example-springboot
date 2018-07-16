@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "doku/api/profile")
+@RequestMapping(value = "api/profile")
 public class ProfileController {
     @Autowired
     private ProfileService profileService;
